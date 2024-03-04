@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1300px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor__iconos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-1 {
+    width: 12rem;
+}
+
+.logo-2 {
+    width: 5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600; /* Como importe un tipo de letra externo, tengo la libertad de cambiar el peso de la imagen ajustandolo al gusto */
+    color: #f5af19;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla td, .tabla th {
+    border: 1px solid #001e24;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+caption {
+    padding: 8px 0;
+    background-color: #061826;
+    color: #fff;
+    font-weight: 600;
+}
+
+th {
+    background-color: #0471a6;
+    color: #fff;
+    font-weight: 600;
+}
+
+.tabla tr {
+    background-color: #bccded;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f6f6f9;
+}
+
+.tabla tr:hover {
+    background-color: #6daacf;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.celda {
+    padding: 3px 8px;
+}
+
+.celda-2 {
+    padding: 3px 8px;
+    vertical-align: top;
+}
+
+ul {
+    margin-inline-start: 0;
+    padding-inline-start: 20px;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 8rem;
+}
+
+em {
+    color: #7380ec;
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: #d9534f;
+}
